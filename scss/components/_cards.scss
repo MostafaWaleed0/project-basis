@@ -1,0 +1,6 @@
+@use '../abstracts/' as *;
+@use '../abstracts/tokens/tokens' as *;
+
+card {
+  width: rem(350);
+}

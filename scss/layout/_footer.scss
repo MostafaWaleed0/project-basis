@@ -1,0 +1,16 @@
+@use '../abstracts/' as *;
+@use '../abstracts/tokens/tokens' as *;
+
+.site-foot {
+  &__navigation {
+    margin-block-start: calc(5.65vw + var(--space-8));
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .copyright {
+    small {
+      font-feature-settings: 'liga' off;
+    }
+  }
+}

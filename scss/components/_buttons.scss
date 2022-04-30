@@ -1,0 +1,20 @@
+@use '../abstracts/' as *;
+@use '../abstracts/tokens/tokens' as *;
+
+.button {
+  display: inline-block;
+  font-size: $button-font-size;
+  font-weight: $button-font-weight;
+  line-height: 1.3125em;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  background: $button-surface-default;
+  padding: 1.125em 2.75em;
+
+  &[data-type='primary'] {
+  }
+
+  &[data-type='secondary'] {
+  }
+}
